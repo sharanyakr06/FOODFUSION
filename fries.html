@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Fries</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <h1 style="text-align:center; margin-top:30px;">French Fries Menu</h1>
+ <p id="message" style="text-align:center; color:yellow; display:none;"></p>
+    <section class="menu-container">
+
+        <div class="food-card">
+            <img src="images/fries1.jpg" alt="Curly Fries">
+            <h3>Curly Fries</h3>
+            <p>₹100</p>
+            <button onclick="addToBill('Curly Fries',100)">Add to Bill</button>
+        </div>
+
+        <div class="food-card">
+            <img src="images/fries2.jpg" alt="Garlic Fries">
+            <h3>Garlic Fries</h3>
+            <p>₹103</p>
+            <button onclick="addToBill('Garlic Fries',103)">Add to Bill</button>
+        </div>
+
+        <div class="food-card">
+            <img src="images/fries3.png" alt="Cheese Fries">
+            <h3>Cheese Fries</h3>
+            <p>₹130</p>
+            <button onclick="addToBill('Cheese Fries',130)">Add to Bill</button>
+        </div>
+
+        <div class="food-card">
+            <img src="images/fries4.jpg" alt="Chili Cheese Fries">
+            <h3>Chili Cheese Fries</h3>
+            <p>₹170</p>
+            <button onclick="addToBill('Chili Cheese Fries',170)">Add to Bill</button>
+        </div>
+
+        <div class="food-card">
+            <img src="images/fries5.jpg" alt="Steak Fries">
+            <h3>Steak Fries</h3>
+            <p>₹199</p>
+            <button onclick="addToBill('Steak Fries',199)">Add to Bill</button>
+        </div>
+
+    </section>
+
+    <div style="text-align:center; margin-top:40px;">
+        <a href="menu.html">
+            <button>⬅ Back to Menu</button>
+        </a>
+        <a href="bill.html">
+<button>🧾 Go to Bill</button>
+</a>
+    </div>
+<script src="js/cart.js"></script>
+</body>
+</html>

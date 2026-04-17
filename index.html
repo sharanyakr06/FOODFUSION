@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Food Fusion</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Food Fusion</h1>
+<p>Snacks • Cakes • Fast Food</p>
+
+<nav>
+<a href="index.html" class="active">Home</a>
+<a href="menu.html">Menu</a>
+<a href="bill.html">Total Bill</a>
+<a href="reviews.html">Customer Reviews</a>
+<a href="contact.html">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+
+    <div class="hero-text">
+        <h2>Welcome to Food Fusion</h2>
+        <p>Fresh snacks, cakes and fast food prepared daily</p>
+        <p id="shopStatus"></p> 
+    </div>
+
+</section>
+
+<!-- Mood Food Selector -->
+
+<section>
+
+<h2>Select Food Based on Mood</h2>
+
+<select id="mood">
+
+<option value="">Choose Mood</option>
+<option value="happy">Happy</option>
+<option value="tired">Tired</option>
+<option value="hungry">Hungry</option>
+<option value="party">Party</option>
+
+</select>
+
+<button onclick="suggestFood()">Suggest Food</button>
+
+<p id="moodResult"></p>
+
+</section>
+
+<script src="js/script.js"></script>
+
+<footer>
+<p>© 2026 Food Fusion | Owner: Sharanya</p>
+</footer>
+
+</body>
+</html>

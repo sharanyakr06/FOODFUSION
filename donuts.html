@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Donuts</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <h1 style="text-align:center; margin-top:30px;">Donuts Menu</h1>
+ <p id="message" style="text-align:center; color:yellow; display:none;"></p>
+    <section class="menu-container">
+
+        <div class="food-card">
+            <img src="images/nuts1.jpg" alt="Chocolate Donuts">
+            <h3>Chocolate Donuts</h3>
+            <p>₹80</p>
+            <button onclick="addToBill('Chocolate Donuts',80)">Add to Bill</button>
+        </div>
+
+        <div class="food-card">
+            <img src="images/nuts2.jpg" alt="Filled Donuts">
+            <h3>Filled Donuts</h3>
+            <p>₹120</p>
+            <button onclick="addToBill('Filled Donuts',120)">Add to Bill</button>
+        </div>
+
+        <div class="food-card">
+            <img src="images/nuts3.png" alt="Nutty Chocolate">
+            <h3>Nutty Chocolate</h3>
+            <p>₹110</p>
+            <button onclick="addToBill('Nutty Chocolate',110)">Add to Bill</button>
+        </div>
+
+         <div class="food-card">
+            <img src="images/nuts4.jpg" alt="Caramel Donut">
+            <h3>Caramel Donut</h3>
+            <p>₹89</p>
+            <button onclick="addToBill('Caramel Donut',89)">Add to Bill</button>
+        </div>
+
+    </section>
+
+    <div style="text-align:center; margin-top:40px;">
+        <a href="menu.html">
+            <button>⬅ Back to Menu</button>
+        </a>
+        <a href="bill.html">
+<button>🧾 Go to Bill</button>
+</a>
+    </div>
+    <script src="js/cart.js"></script>
+
+</body>
+</html>

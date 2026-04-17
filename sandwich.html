@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sandwich</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <h1 style="text-align:center; margin-top:30px;">Sandhwich Menu</h1>
+ <p id="message" style="text-align:center; color:yellow; display:none;"></p>
+    <section class="menu-container">
+
+        <div class="food-card">
+            <img src="images/s1.jpg" alt="Paneer ">
+            <h3>Paneer</h3>
+            <p>₹120</p>
+            <button onclick="addToBill('Paneer',120)">Add to Bill</button>
+        </div>
+
+        <div class="food-card">
+            <img src="images/s2.jpg" alt="Aloo ">
+            <h3>Aloo</h3>
+            <p>₹90</p>
+            <button onclick="addToBill('Aloo',90)">Add to Bill</button>
+        </div>
+
+        <div class="food-card">
+            <img src="images/s3.jpg" alt="Mashroom">
+            <h3>Mashroom</h3>
+            <p>₹140</p>
+            <button onclick="addToBill('Mashroom',140)">Add to Bill</button>
+        </div>
+
+        <div class="food-card">
+            <img src="images/s4.jpg" alt="Cheese Toast">
+            <h3>Cheese Toast</h3>
+            <p>₹150</p>
+            <button onclick="addToBill('Cheese Toast',150)">Add to Bill</button>
+        </div>
+
+         <div class="food-card">
+            <img src="images/s5.jpg" alt="Chicken ">
+            <h3>Chicken</h3>
+            <p>₹199</p>
+            <button onclick="addToBill('Chicken',199)">Add to Bill</button>
+        </div>
+
+         <div class="food-card">
+            <img src="images/s6.jpg" alt="Egg ">
+            <h3>Egg</h3>
+            <p>₹140</p>
+            <button onclick="addToBill('Egg',140)">Add to Bill</button>
+        </div>
+
+    </section>
+
+    <div style="text-align:center; margin-top:40px;">
+        <a href="menu.html">
+            <button>⬅ Back to Menu</button>
+        </a>
+        <a href="bill.html">
+<button>🧾 Go to Bill</button>
+</a>
+    </div>
+<script src="js/cart.js"></script>
+</body>
+</html>

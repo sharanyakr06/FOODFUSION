@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Customer Reviews</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Food Fusion</h1>
+<p>Snacks • Cakes • Fast Food</p>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="menu.html">Menu</a>
+<a href="bill.html">Total Bill</a>
+<a href="contact.html">Contact</a>
+</nav>
+</header>
+
+<section>
+
+<h2>Customer Reviews</h2>
+
+<div class="review-container" id="reviewContainer">
+
+<div class="review-card">
+<p>⭐⭐⭐⭐⭐</p>
+<p>"The burgers are amazing!"</p>
+<h4>- Rahul</h4>
+</div>
+
+<div class="review-card">
+<p>⭐⭐⭐⭐</p>
+<p>"Loved the chocolate cake."</p>
+<h4>- Sneha</h4>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Write Your Review</h2>
+
+<input type="text" id="name" placeholder="Your Name"><br><br>
+
+<select id="rating">
+<option value="" disabled selected>Select Rating</option>
+<option value="⭐">1 Star</option>
+<option value="⭐⭐">2 Stars</option>
+<option value="⭐⭐⭐">3 Stars</option>
+<option value="⭐⭐⭐⭐">4 Stars</option>
+<option value="⭐⭐⭐⭐⭐">5 Stars</option>
+</select><br><br>
+
+<textarea id="reviewText" placeholder="Write your review"></textarea><br><br>
+
+<button onclick="addReview()">Submit Review</button>
+
+</section>
+
+<script src="js/review.js"></script>
+
+<footer>
+<p>© 2026 Food Fusion | Owner: Sharanya</p>
+</footer>
+
+</body>
+</html>

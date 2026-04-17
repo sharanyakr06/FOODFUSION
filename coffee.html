@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Coffee</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <h1 style="text-align:center; margin-top:30px;">Coffee Menu</h1>
+ <p id="message" style="text-align:center; color:yellow; display:none;"></p>
+    <section class="menu-container">
+
+        <div class="food-card">
+            <img src="images/coffee1.jpg" alt="Espresso">
+            <h3>Espresso</h3>
+            <p>₹100</p>
+            <button onclick="addToBill('Espresso',100)">Add to Bill</button>
+        </div>
+
+        <div class="food-card">
+            <img src="images/coffee2.jpg" alt="Latte">
+            <h3>Latte</h3>
+            <p>₹130</p>
+            <button onclick="addToBill('Latte',130)">Add to Bill</button>
+        </div>
+
+        <div class="food-card">
+            <img src="images/coffee3.jpg" alt="Cappuccino">
+            <h3>Cappuccino</h3>
+            <p>₹150</p>
+            <button onclick="addToBill('Cappuccino',150)">Add to Bill</button>
+        </div>
+
+        <div class="food-card">
+            <img src="images/coffee4.png" alt="Mocha">
+            <h3>Mocha</h3>
+            <p>₹195</p>
+            <button onclick="addToBill('Mocha',195)">Add to Bill</button>
+        </div>
+
+    </section>
+
+    <div style="text-align:center; margin-top:40px;">
+        <a href="menu.html">
+            <button>⬅ Back to Menu</button>
+        </a>
+        <a href="bill.html">
+<button>🧾 Go to Bill</button>
+</a>
+    </div>
+    <script src="js/cart.js"></script>
+
+</body>
+</html>

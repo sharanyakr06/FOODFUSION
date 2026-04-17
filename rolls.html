@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Roll</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <h1 style="text-align:center; margin-top:30px;">Rolls Menu</h1>
+ <p id="message" style="text-align:center; color:yellow; display:none;"></p>
+    <section class="menu-container">
+
+        <div class="food-card">
+            <img src="images/r1.jpg" alt="Paneer Tikka ">
+            <h3>Paneer Tikka</h3>
+            <p>₹130</p>
+            <button onclick="addToBill('Paneer Tikka',130)">Add to Bill</button>
+        </div>
+
+        <div class="food-card">
+            <img src="images/r2.jpg" alt="Chicken Tikka">
+            <h3>Chicken Tikka</h3>
+            <p>₹170</p>
+            <button onclick="addToBill('Chicken Tikka',170)">Add to Bill</button>
+        </div>
+
+        <div class="food-card">
+            <img src="images/r3.jpg" alt="Egg">
+            <h3>Egg Roll</h3>
+            <p>₹79</p>
+            <button onclick="addToBill('Egg Roll',79)">Add to Bill</button>
+        </div>
+
+        <div class="food-card">
+            <img src="images/r4.jpg" alt="Aloo Masala">
+            <h3>Aloo Masala</h3>
+            <p>₹59</p>
+            <button onclick="addToBill('Aloo Masala',59)">Add to Bill</button>
+        </div>
+
+        <div class="food-card">
+            <img src="images/r5.jpg" alt="Mashroom Masala">
+            <h3>Mashroom Masala</h3>
+            <p>₹100</p>
+            <button onclick="addToBill('Mashroom Masala',100)">Add to Bill</button>
+        </div>
+
+    </section>
+
+    <div style="text-align:center; margin-top:40px;">
+        <a href="menu.html">
+            <button>⬅ Back to Menu</button>
+        </a>
+        <a href="bill.html">
+<button>🧾 Go to Bill</button>
+</a>
+    </div>
+<script src="js/cart.js"></script>
+</body>
+</html>

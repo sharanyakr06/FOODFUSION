@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Brownies</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <h1 style="text-align:center; margin-top:30px;">Brownies Menu</h1>
+ <p id="message" style="text-align:center; color:yellow; display:none;"></p>
+    <section class="menu-container">
+
+        <div class="food-card">
+            <img src="images/brownies1.jpg" alt="Chocolate Brownie">
+            <h3>Chocolate Brownie</h3>
+            <p>₹147</p>
+            <button onclick="addToBill('Chocolate Brownie',147)">Add to Bill</button>
+        </div>
+
+        <div class="food-card">
+            <img src="images/brownies2.jpg" alt="Walnut Brownie">
+            <h3>Walnut Brownie</h3>
+            <p>₹115</p>
+            <button onclick="addToBill('Walnut Brownie',115)">Add to Bill</button>
+        </div>
+
+        <div class="food-card">
+            <img src="images/brownies3.jpg" alt="Sizzling Brownie">
+            <h3>Sizzling Brownie</h3>
+            <p>₹173</p>
+            <button onclick="addToBill('Sizzling Brownie',173)">Add to Bill</button>
+        </div>
+
+    </section>
+
+    <div style="text-align:center; margin-top:40px;">
+        <a href="menu.html"><button>⬅ Back to Menu</button></a>
+        <a href="bill.html">
+<button>🧾 Go to Bill</button>
+</a>
+    </div>
+    <script src="js/cart.js"></script>
+</body>
+</html>

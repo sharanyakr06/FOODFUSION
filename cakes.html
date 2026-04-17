@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cakes</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <h1 style="text-align:center; margin-top:30px;">Cakes Menu</h1>
+ <p id="message" style="text-align:center; color:yellow; display:none;"></p>
+    <section class="menu-container">
+
+        <div class="food-card">
+            <img src="images/cake1.jpg" alt="Chocolate">
+            <h3>Chocolate</h3>
+            <p>₹250</p>
+            <button onclick="addToBill('Chocolate',250)">Add to Bill</button>
+        </div>
+
+        <div class="food-card">
+            <img src="images/cake2.jpg" alt="Black Forest ">
+            <h3>Black Forest</h3>
+            <p>₹170</p>
+            <button onclick="addToBill('Black Forest',170)">Add to Bill</button>
+        </div>
+
+        <div class="food-card">
+            <img src="images/cake3.jpg" alt="Red Velvet">
+            <h3>Red Velvet</h3>
+            <p>₹200</p>
+            <button onclick="addToBill('Red Velvet',200)">Add to Bill</button>
+        </div>
+
+        <div class="food-card">
+            <img src="images/cake4.jpg" alt="Banana Cake">
+            <h3>Banana Cake</h3>
+            <p>₹160</p>
+            <button onclick="addToBill('Banana Cake',160)">Add to Bill</button>
+        </div>
+
+        <div class="food-card">
+            <img src="images/cake5.jpg" alt="Vanilla">
+            <h3>Vanilla</h3>
+            <p>₹120</p>
+            <button onclick="addToBill('Vanilla',120)">Add to Bill</button>
+        </div>
+
+        <div class="food-card">
+            <img src="images/cake6.jpg" alt="Cheese Cake">
+            <h3>Cheese Cake</h3>
+            <p>₹260</p>
+            <button onclick="addToBill('Cheese Cake',260)">Add to Bill</button>
+        </div>
+
+    </section>
+
+    <div style="text-align:center; margin-top:40px;">
+        <a href="menu.html">
+            <button>⬅ Back to Menu</button>
+        </a>
+        <a href="bill.html">
+<button>🧾 Go to Bill</button>
+</a>
+    </div>
+    <script src="js/cart.js"></script>
+
+</body>
+</html>
