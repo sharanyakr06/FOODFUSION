@@ -266,3 +266,171 @@ form {
     text-align: center;
     margin-top: 20px;
 }
+
+
+/* ================= RESPONSIVE DESIGN ================= */
+
+nav{
+display:flex;
+justify-content:center;
+align-items:center;
+flex-wrap:wrap;
+gap:20px;
+margin-top:15px;
+}
+
+.hero-text{
+max-width:700px;
+width:90%;
+}
+
+.hero-text h2{
+line-height:1.2;
+}
+
+img{
+max-width:100%;
+height:auto;
+}
+
+/* Tablet */
+
+@media(max-width:768px){
+
+header h1{
+font-size:45px;
+}
+
+nav{
+gap:15px;
+}
+
+nav a{
+font-size:16px;
+}
+
+.hero{
+height:auto;
+padding:60px 20px;
+}
+
+.hero-text{
+padding:25px;
+}
+
+.hero-text h2{
+font-size:38px;
+}
+
+.hero-text p{
+font-size:18px;
+}
+
+section{
+margin:20px;
+padding:25px;
+}
+
+.food-card{
+width:220px;
+}
+
+.review-card{
+width:220px;
+}
+
+.bill-box{
+width:90%;
+}
+
+input,
+textarea,
+select{
+width:90%;
+max-width:300px;
+}
+
+}
+
+/* Mobile */
+
+@media(max-width:480px){
+
+header{
+padding:15px;
+}
+
+header h1{
+font-size:32px;
+}
+
+nav{
+flex-direction:column;
+gap:12px;
+}
+
+nav a{
+font-size:18px;
+}
+
+.hero{
+padding:40px 15px;
+}
+
+.hero-text{
+padding:20px;
+}
+
+.hero-text h2{
+font-size:28px;
+}
+
+.hero-text p{
+font-size:16px;
+}
+
+button{
+width:100%;
+max-width:250px;
+}
+
+section{
+margin:15px;
+padding:20px;
+}
+
+.menu-container,
+.review-container{
+flex-direction:column;
+align-items:center;
+}
+
+.food-card,
+.review-card{
+width:90%;
+max-width:300px;
+}
+
+.bill-box{
+width:95%;
+padding:15px;
+font-size:16px;
+}
+
+#totalAmount{
+font-size:20px;
+}
+
+input,
+textarea,
+select{
+width:100%;
+max-width:100%;
+}
+
+footer{
+font-size:14px;
+padding:12px;
+}
+
+}
