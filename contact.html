@@ -24,19 +24,22 @@
 
 <section>
 
-<form onsubmit="showMessage(event)">
+<!--form onsubmit="showMessage(event)"-->
+<form action="https://api.web3forms.com/submit" method="POST">
 
-<input type="text" placeholder="Your Name"><br><br>
+<input type="hidden" name="access_key" value="7cdbd657-1c93-43da-abdc-f2fa6b336376">
 
-<input type="email" placeholder="Your Email"><br><br>
+<input type="text" name="name" placeholder="Your Name"><br><br>
 
-<textarea placeholder="Message"></textarea><br><br>
+<input type="email" name="email" placeholder="Your Email"><br><br>
+
+<textarea name="message" placeholder="Message"></textarea><br><br>
 
 <button type="submit">Send</button>
 
 </form>
 
-<p id="successMsg" style="color: whitesmoke; font-weight: bold; font-size: 20px;"></p>
+<!--p id="successMsg" style="color: whitesmoke; font-weight: bold; font-size: 20px;"></p-->
 
 </section>
 

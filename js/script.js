@@ -59,11 +59,3 @@ let total=(burger*120)+(cake*350)+(coffee*30);
 document.getElementById("totalBill").innerHTML="Total Bill: ₹"+total;
 
 }
-
-function showMessage(event){
-    event.preventDefault();
-
-    document.getElementById("successMsg").innerHTML = "Message sent successfully ✅";
-
-    document.querySelector("form").reset();
-}
