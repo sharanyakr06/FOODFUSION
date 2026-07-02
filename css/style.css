@@ -7,6 +7,8 @@ font-family: Arial, sans-serif;
 margin:0;
 padding:0;
 color:white;
+width:100%;
+overflow-x:hidden;
 
 /* Full background image */
 background-image:url("../images/bg.png");
@@ -22,6 +24,15 @@ header{
 background:rgba(0,0,0,0.6);
 padding:20px;
 text-align:center;
+width:100%;
+}
+
+header h1 {
+margin:0;
+}
+
+header p {
+margin:5px 0 0 0;
 }
 
 /* Navigation */
@@ -376,6 +387,7 @@ font-size:13px;
 }
 
 nav{
+display:flex;
 flex-direction:column;
 gap:10px;
 margin-top:10px;
@@ -383,20 +395,22 @@ margin-top:10px;
 
 nav a{
 font-size:14px;
-margin:0;
+margin:0 !important;
 width:100%;
 text-align:center;
 padding:8px;
+display:block;
 }
 
 .hero{
+height:auto !important;
 padding:30px 15px;
-min-height:auto;
 }
 
 .hero-text{
 padding:20px;
 max-width:100%;
+width:100%;
 }
 
 .hero-text h2{
@@ -409,7 +423,7 @@ font-size:14px;
 
 button{
 width:100%;
-max-width:200px;
+max-width:100% !important;
 padding:10px 20px;
 font-size:14px;
 }
@@ -417,6 +431,7 @@ font-size:14px;
 section{
 margin:10px;
 padding:15px;
+width:100% !important;
 }
 
 section h2{
@@ -425,6 +440,7 @@ font-size:18px;
 
 .menu-container,
 .review-container{
+display:flex !important;
 flex-direction:column;
 align-items:center;
 gap:15px;
@@ -432,8 +448,8 @@ gap:15px;
 
 .food-card,
 .review-card{
-width:95%;
-max-width:280px;
+width:95% !important;
+max-width:100% !important;
 }
 
 .food-card img{
@@ -441,8 +457,8 @@ height:130px;
 }
 
 .bill-box{
-width:95%;
-max-width:100%;
+width:95% !important;
+max-width:100% !important;
 padding:12px;
 font-size:14px;
 }
@@ -454,8 +470,8 @@ font-size:18px;
 input,
 textarea,
 select{
-width:100%;
-max-width:100%;
+width:100% !important;
+max-width:100% !important;
 font-size:16px;
 padding:10px;
 }
